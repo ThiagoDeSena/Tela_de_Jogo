@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Background</title>
+</head>
+<style>
+    html,body{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    body{
+        background-color: #000;
+        background-image: url('imagem/batman.webp');
+        background-size: auto 50%;
+        background-repeat: no-repeat;
+        background-position: -130px center;
+    }
+
+    .box1{
+        height: 200px;
+        width: 500px;
+        background: #ff0 url('imagem/batman-logo.png') center / auto 150px no-repeat;
+        border-radius: 50%;   
+        box-shadow: 0px 0px 100px #fff;  
+        margin: 50px auto;   
+        border: 5px solid #fff;
+    }
+
+    .box{
+        width: 200px;
+        height: 100px;
+        background-color: #fffa;
+        margin:50px ;
+        border-width: 5px;
+        border-style: outset;
+        border-color: #ff0;
+        font-size:1.5em ;
+        color: #000;
+        /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+        font-size: arial;
+        font-weight: bolder;
+        text-align: center;
+        line-height: 100px;
+        text-decoration: underline overline;
+        font-style: italic;
+    }
+    .box:hover{
+        border-color: #fff;
+        background-color: #ff0;
+        cursor: pointer;
+    }
+
+</style>
+<body>
+    <div class="box1">
+
+    </div>
+    <div class="box box2">New Game</div>
+    <div class="box box3">Continue Game</div>
+    <div class="box box4">Configuration</div>
+    
+</body>
+</html>
